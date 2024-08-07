@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Job Application</h2>
+    <form>
+        <label for="Name">Name:</label>
+        <br/>
+        <input type="text" name="firstname" id="Name">
+        <br/>
+        <br/>
+        <label for="mail">Email:</label>
+        <br/>
+        <input type="email" name="mail" id="mail">
+        <br/>
+        <br/>
+        <label for="num">Phone:</label>
+        <br/>
+        <input type="tel" name="no" id="num">
+        <br/>
+        <br/>
+        <label for="choose">Resume:</label>
+        <br/>
+        <input type="file" name="fileselect" id="choose">
+        <br/>
+        <br/>
+        <label for="counter">Experience(years):</label>
+        <br/>
+        <input type="number" name="counter" id="counter" min="0" max="50">
+        <br/>
+        <br/>
+        <fieldset>
+            <legend>Skills:</legend>
+            
+        <input type="checkbox" name="lang" id="eng">
+        <br/>
+        <label for="eng">HTML:</label>
+        <br/>
+        <input type="checkbox" name="lang" id="hin">
+        <br/>
+        <label for="hin">CSS:</label>
+        <br/>
+        <input type="checkbox" name="lang" id="hin">
+        <br/>
+        <label for="hin">Javascript:</label>
+        <br/>
+        </fieldset>
+        <label for="hobby">Highest EDucation:</label>
+        <select name="education" id="hobby" >
+            <option value="reading">Reading</option>
+            <option value="writing">Writing</option>
+            <option value="travelling">Travelling</option>
+            <option value="playing">Playing</option>
+            <option value="cooking">Cooking</option>
+        </select>
+        <fieldset>
+            <legend>Availability</legend>
+            
+        <input type="radio" name="gender" id="male">
+        <label for="male">Fulltime</label>
+       <br/>
+        <input type="radio" name="gender" id="female">
+        <label for="female">Parttime</label>
+        </fieldset>
+
+        <label for="comm">Additional Comments:</label>
+        <br/>
+        <textarea rows="10" cols="50" placeholder="Enter here...." id="comm"></textarea>
+        <br/>
+        <input type="submit" value="Submit Application">
+    </form>
+</body>
+</html>
